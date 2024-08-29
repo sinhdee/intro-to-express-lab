@@ -61,3 +61,9 @@ app.get('/hello', (req, res) => {
     { name: "Jet Boots", price: 1000, type: "boot" },
     { name: "Fifty-Inch Heels", price: 175, type: "heel" }
 ];
+
+app.get('shoes'(req,res)=> {
+  let filteredShoes =shoes; 
+
+  const min_price = req.query.min.price;
+}) 
